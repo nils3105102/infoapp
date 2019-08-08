@@ -5,7 +5,7 @@
     <div class="row justify-content-center">
         <div class="col-md-8">
             <div class="card">
-                <div class="card-header">Dashboard</div>
+                <div class="card-header">Dashboard <span class='float-right'><a href = '{{url("/listings/create")}}' class="btn btn-success btn-xs">Add lising</a></span></div>
 
                 <div class="card-body">
                     @if (session('status'))
